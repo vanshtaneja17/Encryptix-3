@@ -1,0 +1,483 @@
+/* About */
+
+section img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    top: 15px;
+    right: 300px;
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: greenyellow
+}
+
+.name {
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: 1px;
+    color: white;
+}
+
+.name p {
+    margin: 0px;
+}
+
+.image {
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+
+.icon {
+    position: absolute;
+    right: 150px;
+    bottom: 250px;
+    padding: 35px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: grey;
+}
+
+.button {
+    position: absolute;
+    left: 300px;
+    top: 600px;
+    display: inline-block;
+    padding: 8px;
+}
+
+.btn {
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 12px 28px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.intro {
+    position: inherit;
+    display: inline-block;
+}
+
+.welcome {
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    color: grey;
+    font-size: 43px;
+}
+
+.content {
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    width: 50%;
+    color: rgb(143, 154, 126);
+    font-size: 33px;
+    text-align: justify;
+}
+
+/* Skills */
+
+.head {
+    text-align: center;
+    padding: 25px;
+}
+
+#Skills {
+    display: flexbox;
+    flex-wrap: wrap;
+    flex: 50%;
+    justify-content: center;
+    padding: 50px;
+}
+
+.skills {
+    flex: 1 1 200px;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #39bf48;
+    margin: 0px;
+    font-size: xx-large;
+}
+
+.subhead {
+    font-size: 4rem;
+    margin: 0px;
+    text-align: center;
+}
+
+.one {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #39bf48;
+}
+
+hr {
+    border: 1px solid #c8d3b6;
+    width: 50%;
+}
+
+.allskills {
+    text-align: center;
+}
+
+/* Resume */
+
+.r-head h1 {
+    text-align: center;
+    padding: 25px;
+    color: black;
+}
+
+.r-head p {
+    color: white;
+}
+
+#Resume {
+    background-color: #57c15c;
+    height: 65rem;
+}
+
+.stats {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    justify-content: space-around;
+    padding: 90px;
+}
+
+.stat {
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+}
+
+.stat h3 {
+    font-size: 6.5rem;
+    margin: 0;
+}
+
+.stat p {
+    margin: 5px 0 0;
+    color: black;
+    text-decoration: solid;
+    font-size: 2rem;
+}
+
+.r-content {
+    display: ruby;
+    padding: 90px 20px 50px 20px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    position: absolute;
+    width: 40%;
+    left: 53%;
+}
+
+.content1 {
+    font-size: larger;
+    color: rgb(65, 47, 47);
+    text-align: justify;
+}
+
+.outerdiv {
+    width: 100%;
+}
+
+
+/* Projects */
+
+.p-head {
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.p-head h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.p-subhead {
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.parentdiv {
+    width: 900px;
+    height: 1700px;
+    margin: 10px auto auto auto;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.parentdiv a {
+    width: 450px;
+    height: 550px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.parentdiv img {
+    width: 100%;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.parentdiv .overlay {
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    border-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.5s ease;
+}
+
+.parentdiv a:hover img {
+    transform: scale(1.1);
+}
+
+.parentdiv a:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Us */
+
+.container {
+    max-width: 1000px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.445);
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+}
+
+.two {
+    display: inline-block;
+}
+
+.form-container {
+    width: 50%;
+    line-height: 1.5rem;
+    background: none;
+    padding: 20px;
+}
+
+.contact-info {
+    width: 30%;
+    padding: 20px;
+    font-size: large;
+    justify-content: center;
+    background-color: rgba(27, 26, 26, 0.926);
+}
+
+.s-contact {
+    background-color: #151515;
+    background-image: url("contact-bg.jpg");
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: white
+}
+
+strong {
+    color: #39bf48;
+
+}
+
+p.info-contact {
+    color: grey;
+    line-height: 1.5rem;
+}
+
+form input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    height: 1rem;
+    padding: 1.5rem 0;
+    border: 0;
+    outline: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+form textarea {
+    height: 6rem;
+    color: white;
+}
+
+form input[type="submit"] {
+    display: block;
+    height: 4rem;
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 25px;
+    background-color: #39bf48;
+    color: white;
+    text-decoration: solid;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(133, 196, 133);
+    color: black;
+    font-weight: bold;
+}
+
+.form-line {
+    border: 1px solid #8f9584d7;
+    width: 100%;
+}
+
+/* Footer */
+
+.main-footer {
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.c-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 129px;
+    padding-bottom: 50px;
+}
+
+.left-section,
+.right-section {
+    width: 28%;
+}
+
+.left-section p,
+.right-section p {
+    color: #888;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.left-section h1 {
+    color: #6fbf73;
+}
+
+.right-section h2 {
+    font-size: 1.5em;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #35e83e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: rgb(133, 196, 133);
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 100px;
+    color: #888;
+    font-size: 1.5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #57c15c;
+}
+
+.footer a:hover {
+    text-decoration: solid;
+    color: blue;
+}
